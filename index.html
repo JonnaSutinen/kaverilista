@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaverilista</title>
+        <link rel="stylesheet" href="styles/styl.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts.js"></script>
+
+      </head>
+<body>
+  <h1>Kaverilista</h1>
+  <p>Syötä nimi:</p>
+  <input type="text" id="uusiKaveri" placeholder="Lisää kaveri" onkeydown="lisaaKaveriEnter(event)">
+  <button onclick="lisaaKaveri()">Lisää kaveri</button>
+  <button onclick="poistaKaveri()">Poista kaveri</button>
+  <button onclick="jarjestaKaverit()">Järjestä kaverit</button>
+
+
+  <ul id="kaverit"></ul>
+
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+#kaverit {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  button {
+    margin-left: 10px;
+  }
